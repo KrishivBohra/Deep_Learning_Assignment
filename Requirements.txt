@@ -1,0 +1,5 @@
+tensorflow>=2.15.0
+gradio>=4.0.0
+numpy>=1.26.0
+pandas>=2.1.0
+altair  # Required for Gradio LinePlot
