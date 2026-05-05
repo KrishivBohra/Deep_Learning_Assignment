@@ -1,2 +1,11 @@
-# Deep_Learning_Assignment
-This project uses an LSTM Autoencoder to detect mechanical failures before they happen. By training on "healthy" sensor sequences, the model learns to reconstruct normal vibration patterns. If a fault occurs, the model fails to accurately recreate the signal; this high reconstruction loss serves as a real-time trigger for maintenance.
+# LSTM-Based Predictive Maintenance System
+
+An interactive Deep Learning application demonstrating anomaly detection in time-series sensor data. 
+
+## Technical Stack
+* **Architecture:** LSTM Autoencoder (Sequence-to-Sequence).
+* **Concept:** Learning the "reconstruction error" of normal machine harmonics to identify early-stage mechanical failure.
+* **Visualization:** Gradio-based real-time waveform analysis.
+
+## Background
+In high-precision engineering, simple thresholds often fail to catch complex failure modes. This model learns the temporal dependencies of a healthy motor, flagging deviations in the frequency or amplitude signature as high reconstruction loss.
